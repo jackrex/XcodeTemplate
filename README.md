@@ -5,7 +5,7 @@ XcodeTemplate 4 Keep iOS Dev Team
 Just open your terminator and paste
 
 ```
-zsh -c "$(curl -fsSL https://raw.githubusercontent.com/jackrex/XcodeTemplate/master/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/jackrex/XcodeTemplate/master/install.sh)"
 ```
 
 Reopen Xcode & Open Project and Cmd + N

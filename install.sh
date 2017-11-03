@@ -6,6 +6,7 @@ if [ ! -x "$folder" ]; then
 	mkdir -p "$folder"
 fi
 
+rm -rf $folder *.xctemplate
 git clone https://github.com/jackrex/XcodeTemplate.git
 cp -R ./XcodeTemplate/Keep\ Cocoa\ Touch\ Class.xctemplate $folder
 pkill -x Xcode

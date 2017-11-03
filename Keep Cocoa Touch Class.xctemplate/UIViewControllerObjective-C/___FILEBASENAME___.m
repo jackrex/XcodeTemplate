@@ -10,10 +10,23 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // add your subviews
+    
+    [self layoutPageSubviews];
 }
 
-#paragm - Getter and Setter
+- (void)layoutPageSubviews {
+    //add your constraints
+}
+
+
+#pragma mark - Event & Action
+
+
+#pragma mark - Delegate
+
+
+#pragma mark - Getter & Setter
 
 
 @end

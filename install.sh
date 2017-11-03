@@ -8,7 +8,7 @@ if [ ! -x "$folder" ]; then
 fi
 rm -rf ./XcodeTemplate
 git clone https://github.com/jackrex/XcodeTemplate.git
-cp -R ./Keep\ Cocoa\ Touch\ Class.xctemplate $folder
+cp -R ./XcodeTemplate/Keep\ Cocoa\ Touch\ Class.xctemplate $folder
 pkill -x Xcode
 rm -rf ./XcodeTemplate
 

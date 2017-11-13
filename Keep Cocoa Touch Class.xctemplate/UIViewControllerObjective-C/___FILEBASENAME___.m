@@ -14,13 +14,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self setupPageSubviews];
+    [self setupSubviews];
     [self setupObserver];
 }
 
 #pragma mark - Setup Methods
 
-- (void)setupPageSubviews {
+- (void)setupSubviews {
     //add your view & constraints
 }
 
